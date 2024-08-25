@@ -12,3 +12,4 @@ TODO:
 - [ ] Add multiline search support
 - [ ] Add automated tests
 - [ ] Make it more customizable [ex. color, case sensitivity]
+- [ ] Write help
