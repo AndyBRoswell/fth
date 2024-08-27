@@ -10,6 +10,7 @@ Version: `0.0.0.0`
 
 TODO:
 - [ ] Add multiline search support
+- [ ] Add supports like `sls`
 - [ ] Add automated tests
 - [ ] Make it more customizable [ex. color, case sensitivity]
 - [ ] Write help
