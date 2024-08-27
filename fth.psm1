@@ -12,8 +12,8 @@ function fth {
         echo '<InputObject> and <file> cannot be both empty and cannot be both designated.'
         return
     }
-    if (-not $RE) { write-error '$RE cannot be empty.'; exit }
-    if (-not $InputObject -and -not $Paths -and -not $LiteralPaths) { write-error '$InputObject, $Paths and $LiteralPaths cannot be all empty.'; exit }
+    if (-not $RE) { write-error '$RE cannot be empty.'; return }
+    if (-not $InputObject -and -not $Paths -and -not $LiteralPaths) { write-error '$InputObject, $Paths and $LiteralPaths cannot be all empty.'; return }
 
     $foreach_block = {
         $line = $_
