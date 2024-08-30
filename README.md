@@ -14,3 +14,7 @@ TODO:
 - [ ] Add automated tests
 - [ ] Make it more customizable [ex. color, case sensitivity]
 - [ ] Write help
+
+Advantages
+- Lines are not cut off like `sls`.
+- See full text with highlights as assistance.
