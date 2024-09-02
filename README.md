@@ -10,10 +10,10 @@ Version: `0.0.0.0`
 
 TODO:
 - [ ] Add multiline search support
-- [ ] Add supports like `sls`
-- [ ] Add automated tests
+- [ ] Add features like `sls`
+- [ ] Add automated tests with `Pester`
 - [ ] Make it more customizable [ex. color, case sensitivity]
-- [ ] Write help
+- [ ] Write manageable help
 
 Advantages
 - Lines are not cut off like `sls`.
